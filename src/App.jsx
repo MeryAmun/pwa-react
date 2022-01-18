@@ -20,8 +20,8 @@ export const App = () => {
 
     return (
         <div className='main-container'>
-     <h1>PWA React Weather App</h1>
-     <h2>Get the latest Weather updates <br /> from Cities all over the World</h2>
+     <div className="header"><h1>PWA React Weather App</h1>
+     <h2>Get the latest Weather updates <br /> from Cities all over the World</h2></div>
         <input
         type='text'
         className='search'
