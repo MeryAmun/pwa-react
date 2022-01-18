@@ -20,11 +20,12 @@ export const App = () => {
 
     return (
         <div className='main-container'>
-    
+     <h1>PWA React Weather App</h1>
+     <h2>Get the latest Weather updates <br /> from Cities all over the World</h2>
         <input
         type='text'
         className='search'
-        placeholder='...Search'
+        placeholder='Enter City Name'
         value={query}
         onChange={(e) =>setQuery(e.target.value)}
         onKeyPress={search}
