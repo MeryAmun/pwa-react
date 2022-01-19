@@ -27,6 +27,16 @@ html, body, #root {
     justify-content: space-between;
 }
 
+.btn{
+    width: 150px;
+    background: #ff8c00;
+    color: #0a1f44;
+    border-radius: 5px;
+    padding: 10px ;
+    border: none;
+    font-size: 1rem;
+    
+}
 .search {
     outline: none;
     padding: 20px 7%;

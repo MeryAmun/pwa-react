@@ -15,7 +15,14 @@ export const App = () => {
 }
 
     }
+    
+    const search1 = async (e) => {
+       
+    const data = await fetchWeather(query)
+    setWeather(data)
+    setQuery('')
 
+    }
 
 
     return (
@@ -30,6 +37,7 @@ export const App = () => {
         onChange={(e) =>setQuery(e.target.value)}
         onKeyPress={search}
         />
+        <button className="btn" onClick={search1}>Search</button>
         {
             weather.main && (
                 <div className='city'>
